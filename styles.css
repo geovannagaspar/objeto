@@ -1,0 +1,59 @@
+/* tira as margens e os espacos */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #e2d0ff;
+    color: #460f5f;
+    font-family: Arial, sans-serif;
+}
+
+/* centraliza o conteudo */
+.container{
+    margin: 50px auto;
+    max-width: 900px;
+    padding: 20px;
+}
+
+h1{
+    color: #58218b;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+/* estilo da tabela */
+table{
+    background-color: #ffffff;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td{
+    border: 1px solid #a889f0;
+    padding: 14px;
+    text-align: left;
+}
+
+/* cabecalho da tabela */
+th{
+    background-color: #663a8a;
+    color: #ffffff;
+}
+
+/* muda a cor das linhas */
+tr:nth-child(even){
+    background-color: #f7f4fb;
+}
+
+/* muda a cor quando passa o mouse */
+tr:hover{
+    background-color: #c7abff;
+}
+
+/* deixa o preco em negrito */
+.preco{
+    font-weight: bold;
+}
